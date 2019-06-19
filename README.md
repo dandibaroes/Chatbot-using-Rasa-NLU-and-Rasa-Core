@@ -1,2 +1,7 @@
-# Chatbot-using-Rasa-NLU-and-Rasa-Core
-just learning RASA
+# Chatbot-using-Rasa-NLU-with-Indonesian-Language
+
+still in development
+
+Stay tuned
+
+
