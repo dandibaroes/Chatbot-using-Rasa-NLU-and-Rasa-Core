@@ -1,4 +1,4 @@
-## intent:menyapa
+## intent:greet
 - hey
 - hello
 - hi
@@ -8,20 +8,20 @@
 - selamat malam
 - oy
 
-## intent:mengakhiri
+## intent:goodbye
 - selamat jalan
 - selamat tinggal
 - aku harap kita bertemu lagi
 - kita akan berjumpa lagi
 
-## intent:menegaskan
+## intent:affirm
 - ya
 - memang
 - tentu saja
 - kedengarannya menarik
 - benar
 
-## intent:menolak
+## intent:deny
 - tidak
 - tidak pernah
 - aku tidak berpikir seperti itu
@@ -29,7 +29,7 @@
 - tidak mungkin
 - tidak terlalu
 
-## intent:mood_baik
+## intent:mood_great
 - sempurna
 - sangat baik
 - bagus
@@ -37,8 +37,9 @@
 - hebat
 - saya sangat senang
 - saya sangat bergembira
+- senang
 
-## intent:mood_jelek
+## intent:mood_unhappy
 - sedih
 - sangat sedih
 - tidak senang
