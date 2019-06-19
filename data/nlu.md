@@ -1,50 +1,50 @@
-## intent:greet
+## intent:menyapa
 - hey
 - hello
 - hi
-- good morning
-- good evening
-- hey there
+- selamat pagi  
+- selamat siang
+- selamat sore
+- selamat malam
+- oy
 
-## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
+## intent:mengakhiri
+- selamat jalan
+- selamat tinggal
+- aku harap kita bertemu lagi
+- kita akan berjumpa lagi
 
-## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
+## intent:menegaskan
+- ya
+- memang
+- tentu saja
+- kedengarannya menarik
+- benar
 
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
+## intent:menolak
+- tidak
+- tidak pernah
+- aku tidak berpikir seperti itu
+- tidak menyukainya
+- tidak mungkin
+- tidak terlalu
 
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
+## intent:mood_baik
+- sempurna
+- sangat baik
+- bagus
+- luar biasa
+- hebat
+- saya sangat senang
+- saya sangat bergembira
 
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
+## intent:mood_jelek
+- sedih
+- sangat sedih
+- tidak senang
+- jelek
+- sangat jelek
+- mengerikan
+- buruk
+- tidak terlalu baik
+- sangat menyedihkan
