@@ -1,0 +1,31 @@
+digraph  {
+0 [class="start active", fillcolor=green, fontsize=12, label=START, style=filled];
+"-1" [class=end, fillcolor=red, fontsize=12, label=END, style=filled];
+1 [class=active, fontsize=12, label=utter_greet];
+2 [class="", fontsize=12, label=utter_happy];
+4 [class=active, fontsize=12, label=utter_cheer_up];
+5 [class=active, fontsize=12, label=utter_did_that_help];
+"-4" [class=ellipsis, label="..."];
+9 [class="", fontsize=12, label=utter_goodbye];
+"-5" [class=ellipsis, label="..."];
+13 [class="intent dashed active", label=greet, shape=rect];
+14 [class="intent active", fillcolor=lightblue, label=oy, shape=rect, style=filled];
+15 [class=intent, fillcolor=lightblue, label="/goodbye", shape=rect, style=filled];
+16 [class=intent, fillcolor=lightblue, label="/mood_great", shape=rect, style=filled];
+17 [class="intent active", fillcolor=lightblue, label="kurang\ baik", shape=rect, style=filled];
+18 [class="intent active", fillcolor=lightblue, label=hi, shape=rect, style=filled];
+0 -> 14  [class=active, key=0];
+0 -> 15  [class="", key=0];
+1 -> 16  [class="", key=0];
+1 -> 17  [class=active, key=0];
+2 -> "-1"  [class="", key=NONE, label=""];
+4 -> 5  [class=active, key=NONE, label=""];
+5 -> "-4"  [class="", key=NONE, label=""];
+5 -> 18  [class=active, key=0];
+9 -> "-5"  [class="", key=NONE, label=""];
+14 -> 1  [class=active, key=0];
+15 -> 9  [class="", key=0];
+16 -> 2  [class="", key=0];
+17 -> 4  [class=active, key=0];
+18 -> 13  [class=active, key=0];
+}

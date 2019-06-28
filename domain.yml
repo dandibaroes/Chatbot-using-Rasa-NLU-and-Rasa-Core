@@ -1,31 +1,26 @@
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-
+%YAML 1.1
+---
 actions:
-- utter_greet
 - utter_cheer_up
 - utter_did_that_help
-- utter_happy
 - utter_goodbye
-
+- utter_greet
+- utter_happy
+intents:
+- mood_great
+- mood_unhappy
+- greet
+- goodbye
+- affirm
+- deny
 templates:
-  utter_greet:
-  - text: "Hey! Apa kabar?"
-
   utter_cheer_up:
-  - text: "Semangat kaka"
-    # image: "https://i.imgur.com/nGF1K8f.jpg"
-
+  - text: Semangat kaka
   utter_did_that_help:
-  - text: "Apakah itu membantu mu?"
-
-  utter_happy:
-  - text: "Bagus, tetep semangat!"
-
+  - text: Apakah itu membantu mu?
   utter_goodbye:
-  - text: "Selamat tinggal"
+  - text: Selamat tinggal
+  utter_greet:
+  - text: Hey! Apa kabar?
+  utter_happy:
+  - text: Bagus, tetep semangat!

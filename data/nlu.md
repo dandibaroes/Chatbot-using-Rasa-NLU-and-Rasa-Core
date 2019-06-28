@@ -1,19 +1,3 @@
-## intent:greet
-- hey
-- hello
-- hi
-- selamat pagi  
-- selamat siang
-- selamat sore
-- selamat malam
-- oy
-
-## intent:goodbye
-- selamat jalan
-- selamat tinggal
-- aku harap kita bertemu lagi
-- kita akan berjumpa lagi
-
 ## intent:affirm
 - ya
 - memang
@@ -28,6 +12,22 @@
 - tidak menyukainya
 - tidak mungkin
 - tidak terlalu
+
+## intent:goodbye
+- selamat jalan
+- selamat tinggal
+- aku harap kita bertemu lagi
+- kita akan berjumpa lagi
+
+## intent:greet
+- hey
+- hello
+- hi
+- selamat pagi
+- selamat siang
+- selamat sore
+- selamat malam
+- oy
 
 ## intent:mood_great
 - sempurna
@@ -49,3 +49,4 @@
 - buruk
 - tidak terlalu baik
 - sangat menyedihkan
+- kurang baik

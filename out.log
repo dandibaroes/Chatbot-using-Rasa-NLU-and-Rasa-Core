@@ -1,0 +1,18 @@
+2019-06-29 00:15:19,347 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\baroes\appdata\local\programs\python\python37\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\baroes\appdata\local\programs\python\python37\lib\asyncio\base_events.py", line 573, in run_until_complete
+    return future.result()
+  File "c:\users\baroes\appdata\local\programs\python\python37\lib\asyncio\base_events.py", line 1367, in create_server
+    % (sa, err.strerror.lower())) from None
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): only one usage of each socket address (protocol/network address/port) is normally permitted
+2019-06-29 00:15:48,838 [ERROR]  Unable to start server
+Traceback (most recent call last):
+  File "c:\users\baroes\appdata\local\programs\python\python37\lib\site-packages\sanic\server.py", line 745, in serve
+    http_server = loop.run_until_complete(server_coroutine)
+  File "c:\users\baroes\appdata\local\programs\python\python37\lib\asyncio\base_events.py", line 573, in run_until_complete
+    return future.result()
+  File "c:\users\baroes\appdata\local\programs\python\python37\lib\asyncio\base_events.py", line 1367, in create_server
+    % (sa, err.strerror.lower())) from None
+OSError: [Errno 10048] error while attempting to bind on address ('0.0.0.0', 5005): only one usage of each socket address (protocol/network address/port) is normally permitted

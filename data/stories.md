@@ -25,3 +25,13 @@
 ## say goodbye
 * goodbye
   - utter_goodbye
+
+## Generated Story 8688399774751695113
+* greet
+    - utter_greet
+* mood_great
+    - rewind
+* mood_unhappy
+    - utter_cheer_up
+    - utter_did_that_help
+* greet
